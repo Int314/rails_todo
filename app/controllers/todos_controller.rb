@@ -6,9 +6,9 @@ class TodosController < ApplicationController
     @todos = Todo.all
   end
 
-  # GET /todos/1
-  def show
-  end
+  # # GET /todos/1
+  # def show
+  # end
 
   # GET /todos/new
   def new
