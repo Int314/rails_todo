@@ -3,7 +3,7 @@ class TodosController < ApplicationController
 
   # GET /todos
   def index
-    @todos = Todo.all.order(completed: :asc)
+    @todos = Todo.all.order(completed: :asc, created_at: :desc)
   end
 
   # GET /todos/new
