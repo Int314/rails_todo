@@ -17,7 +17,7 @@
   - ![image](https://github.com/Int314/rails_todo/assets/15305383/585d0351-4040-44db-b9f6-4f0a06c1a204)
 
 - 作成
-  - 
+  - ![image](https://github.com/Int314/rails_todo/assets/15305383/0f9338ae-554b-407d-90b1-20563d8e27f1)
 
 - 編集
   - ![image](https://github.com/Int314/rails_todo/assets/15305383/7d21151d-5407-45a0-8cfe-870d2d81f483)
