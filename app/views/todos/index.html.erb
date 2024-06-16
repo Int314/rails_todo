@@ -7,15 +7,17 @@
 
   <div class="flex justify-between items-center">
     <h1 class="font-bold text-4xl">Todos</h1>
-    <%= link_to "New todo", new_todo_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
+    <%= link_to "新規作成", new_todo_path, class: "rounded-lg py-3 px-5 bg-blue-600 text-white block font-medium" %>
   </div>
 
   <div id="todos" class="min-w-full">
     <% @todos.each do |todo| %>
-      <%= render todo %>
-      <p>
-        <%= link_to "Show this todo", todo, class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
-      </p>
+      <div id="<%= dom_id todo %>" class="my-5">
+        <span class="<%= 'line-through text-green-500/75' if todo.completed %>"><%= todo.title %></span>
+        <% unless todo.completed %>
+          <%= link_to "編集", edit_todo_path(todo), class: "ml-2 rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium" %>
+        <% end %>
+      </div>
     <% end %>
   </div>
 </div>
