@@ -17,10 +17,11 @@
   - ![image](https://github.com/Int314/rails_todo/assets/15305383/585d0351-4040-44db-b9f6-4f0a06c1a204)
 
 - 作成
-  - ![image](https://github.com/Int314/rails_todo/assets/15305383/d2a923ea-b96a-4317-8af3-9f012c70bdea)
+  - 
 
 - 編集
-  - ![image](https://github.com/Int314/rails_todo/assets/15305383/6057fbe8-afd2-46ee-9211-2fe678787ec9)
+  - ![image](https://github.com/Int314/rails_todo/assets/15305383/7d21151d-5407-45a0-8cfe-870d2d81f483)
+
 
 ## 環境の準備
 
