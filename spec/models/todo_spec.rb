@@ -17,8 +17,8 @@ RSpec.describe Todo, type: :model do
     expect(todo).to be_valid
   end
 
-  it "デフォルトの未完了ステータスはfalseであること" do
-    todo = FactoryBot.build(:todo, completed: nil)
+  it "デフォルトのステータスは未完了であること" do
+    todo = Todo.new(title: 'デフォルトステータス')
     expect(todo).to be_valid
     expect(todo.completed).to be(false)
   end
